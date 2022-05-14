@@ -1,0 +1,13 @@
+.text-center{
+    display:flex;
+}
+.form-signin{
+    margin:auto;
+}
+.card:hover {
+    background-color:#cfd6d6;
+    transition: 0.6s;
+}
+a{
+    text-decoration:none;
+}

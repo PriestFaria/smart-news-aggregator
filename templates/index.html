@@ -1,0 +1,18 @@
+{%extends "base_template.html"%}
+
+{% block body%}
+{% for mesg in get_flashed_messages() %}
+<h1>{{ mesg }}</h1>
+{% endfor %}
+
+
+    <h1>Hi,man!</h1>
+<h1>Created users:</h1>
+<ul>
+    {% for user in users %}
+    <li>{{user}}</li>
+    {% endfor %}
+</ul>
+
+
+{% endblock %}
