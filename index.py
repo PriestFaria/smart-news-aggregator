@@ -147,6 +147,19 @@ def train():
                             if not article['title'] in interesting]
 }
             del session['train_list']
+            with open("users.json","r") as users_json:
+                json_dict = json.load(users_json)
+                try:
+                    json_dict[session['user']] = {
+                        "interesting":list(set(json_dict[session['user']]["interesting"]
+                        + session['train_db']["interesting"])),
+                        "not_interesting":list(set(json_dict[session['user']]["not_interesting"]
+                        + session["train_db"]["not_interesting"]))
+                        }
+                except KeyError:
+                    json_dict[session['user']] = session['train_db']
+            with open("users.json",'w') as users_json:
+                json.dump(json_dict,users_json,indent=6)
             flash(f"successfully trained!{session['train_db']}")
             return redirect(url_for('index'))
         except exceptions.BadRequestKeyError:
