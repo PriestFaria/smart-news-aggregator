@@ -1743,3 +1743,389 @@ console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message f
 Exiting due to channel error.
 Exiting due to channel error.
 Exiting due to channel error.
+1652994281051	geckodriver	INFO	Listening on 127.0.0.1:52391
+1652994281063	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "59343" "-no-remote" "-profile" "/tmp/rust_mozprofile4R3bNY"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1652994282458	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile4R3bNY/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:59343/devtools/browser/8069ea42-0eed-4593-bdb5-b5b9c48dc45a
+1652994284838	Marionette	INFO	Listening on port 46191
+1652994284929	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 17: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1652994290147	Marionette	INFO	Stopped listening on port 46191
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1652994290266	geckodriver::marionette	ERROR	Failed to close browser connection: Socket not connected (os error 107)
+JavaScript error: chrome://remote/content/marionette/driver.js, line 2125: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIObserverService.removeObserver]
+[2022-05-19T21:04:50Z ERROR glean] Can't persist ping lifetime data: Error { kind: Rkv(IoError(Os { code: 2, kind: NotFound, message: "No such file or directory" })) }
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1652994296500	geckodriver	INFO	Listening on 127.0.0.1:44963
+1652994296511	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "57795" "-no-remote" "-profile" "/tmp/rust_mozprofileBwTKjY"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1652994297920	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileBwTKjY/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57795/devtools/browser/010df502-c357-412c-b6c4-ef27538ea27f
+1652994300215	Marionette	INFO	Listening on port 39815
+1652994300260	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 17: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+[Child 190469, MediaDecoderStateMachine #1] WARNING: Decoder=7f5dfdeb8d00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /build/firefox-ZWDswS/firefox-100.0+build2/dom/media/MediaDecoderStateMachine.cpp:369
+[Child 190469, MediaDecoderStateMachine #1] WARNING: Decoder=7f5dfdeb8d00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /build/firefox-ZWDswS/firefox-100.0+build2/dom/media/MediaDecoderStateMachine.cpp:3577
+JavaScript warning: https://yastatic.net/awaps-ad-sdk-js-bundles/1.0-579889/bundles-es2017/inpage.bundle.js, line 1: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: 2152398850: Request failed
+JavaScript error: resource://gre/actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource://gre/actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+[Child 190469, MediaDecoderStateMachine #1] WARNING: Decoder=7f5dfd9a1200 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /build/firefox-ZWDswS/firefox-100.0+build2/dom/media/MediaDecoderStateMachine.cpp:369
+[Child 190469, MediaDecoderStateMachine #1] WARNING: Decoder=7f5dfd9a1200 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /build/firefox-ZWDswS/firefox-100.0+build2/dom/media/MediaDecoderStateMachine.cpp:3577
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 13: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Child 190469, MediaDecoderStateMachine #1] WARNING: Decoder=7f5e0ce25500 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /build/firefox-ZWDswS/firefox-100.0+build2/dom/media/MediaDecoderStateMachine.cpp:369
+[Child 190469, MediaDecoderStateMachine #1] WARNING: Decoder=7f5e0ce25500 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /build/firefox-ZWDswS/firefox-100.0+build2/dom/media/MediaDecoderStateMachine.cpp:3577
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+JavaScript error: resource://gre/actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+JavaScript error: resource://gre/actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+JavaScript error: resource://gre/actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+1652994521643	Marionette	INFO	Stopped listening on port 39815
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1652994592661	geckodriver	INFO	Listening on 127.0.0.1:52409
+1652994592674	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "46555" "-no-remote" "-profile" "/tmp/rust_mozprofilegIcSUe"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1652994594044	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilegIcSUe/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:46555/devtools/browser/b3f72196-27bf-4e8e-b0b4-2d987bc64228
+1652994596371	Marionette	INFO	Listening on port 37911
+1652994596413	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 17: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+1652994600310	Marionette	INFO	Stopped listening on port 37911
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1652994622109	geckodriver	INFO	Listening on 127.0.0.1:43919
+1652994622121	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "51787" "-no-remote" "-profile" "/tmp/rust_mozprofile1A0g2s"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1652994623492	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile1A0g2s/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51787/devtools/browser/cfacee80-794b-40b1-9911-76840512198d
+1652994625800	Marionette	INFO	Listening on port 33217
+1652994625859	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 17: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+1652994637741	Marionette	INFO	Stopped listening on port 33217
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1652995181617	geckodriver	INFO	Listening on 127.0.0.1:56933
+1652995181627	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "43247" "-no-remote" "-profile" "/tmp/rust_mozprofileoPtcBz"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1652995183073	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileoPtcBz/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:43247/devtools/browser/610ee68d-be79-4427-8841-38598754d423
+1652995185423	Marionette	INFO	Listening on port 33955
+1652995185472	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 17: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+[Child 191962, MediaDecoderStateMachine #1] WARNING: Decoder=7f57780ee600 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /build/firefox-ZWDswS/firefox-100.0+build2/dom/media/MediaDecoderStateMachine.cpp:369
+[Child 191962, MediaDecoderStateMachine #1] WARNING: Decoder=7f57780ee600 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /build/firefox-ZWDswS/firefox-100.0+build2/dom/media/MediaDecoderStateMachine.cpp:3577
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+1652995219184	Marionette	INFO	Stopped listening on port 33955
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1652995263321	geckodriver	INFO	Listening on 127.0.0.1:48863
+1652995263331	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "34557" "-no-remote" "-profile" "/tmp/rust_mozprofileZoGYum"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1652995264776	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileZoGYum/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:34557/devtools/browser/66c2d300-f54b-40b4-a1bc-778a519502a8
+1652995267181	Marionette	INFO	Listening on port 43315
+1652995267291	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 17: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+1652995284945	Marionette	INFO	Stopped listening on port 43315
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1652995302889	geckodriver	INFO	Listening on 127.0.0.1:56093
+1652995302900	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "45659" "-no-remote" "-profile" "/tmp/rust_mozprofileKOnn0B"
+*** You are running in headless mode.
+1652995303652	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileKOnn0B/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:45659/devtools/browser/a4ea1c74-967a-49ec-8add-61e4eec9b2f2
+1652995305868	Marionette	INFO	Listening on port 40127
+1652995305941	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 17: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+[Child 192618, MediaDecoderStateMachine #1] WARNING: Decoder=7f1a180d2c00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /build/firefox-ZWDswS/firefox-100.0+build2/dom/media/MediaDecoderStateMachine.cpp:369
+[Child 192618, MediaDecoderStateMachine #1] WARNING: Decoder=7f1a180d2c00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /build/firefox-ZWDswS/firefox-100.0+build2/dom/media/MediaDecoderStateMachine.cpp:3577
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 13: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Child 192618, MediaDecoderStateMachine #1] WARNING: Decoder=7f1a170f8f00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /build/firefox-ZWDswS/firefox-100.0+build2/dom/media/MediaDecoderStateMachine.cpp:369
+[Child 192618, MediaDecoderStateMachine #1] WARNING: Decoder=7f1a170f8f00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /build/firefox-ZWDswS/firefox-100.0+build2/dom/media/MediaDecoderStateMachine.cpp:3577
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+[Child 192618, MediaDecoderStateMachine #1] WARNING: Decoder=7f1a13de7d00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /build/firefox-ZWDswS/firefox-100.0+build2/dom/media/MediaDecoderStateMachine.cpp:369
+[Child 192618, MediaDecoderStateMachine #1] WARNING: Decoder=7f1a13de7d00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /build/firefox-ZWDswS/firefox-100.0+build2/dom/media/MediaDecoderStateMachine.cpp:3577
+[Child 192618, MediaDecoderStateMachine #1] WARNING: Decoder=7f1a14bd8d00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /build/firefox-ZWDswS/firefox-100.0+build2/dom/media/MediaDecoderStateMachine.cpp:369
+[Child 192618, MediaDecoderStateMachine #1] WARNING: Decoder=7f1a14bd8d00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /build/firefox-ZWDswS/firefox-100.0+build2/dom/media/MediaDecoderStateMachine.cpp:3577
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+[Child 192618, MediaDecoderStateMachine #1] WARNING: Decoder=7f1a17973c00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /build/firefox-ZWDswS/firefox-100.0+build2/dom/media/MediaDecoderStateMachine.cpp:369
+[Child 192618, MediaDecoderStateMachine #1] WARNING: Decoder=7f1a17973c00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /build/firefox-ZWDswS/firefox-100.0+build2/dom/media/MediaDecoderStateMachine.cpp:3577
+JavaScript warning: https://yastatic.net/awaps-ad-sdk-js-bundles/1.0-581732/bundles-es2017/inpage.bundle.js, line 1: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: 2152398850: Request failed
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+[Child 192618, MediaDecoderStateMachine #1] WARNING: Decoder=7f1a139e1a00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /build/firefox-ZWDswS/firefox-100.0+build2/dom/media/MediaDecoderStateMachine.cpp:369
+[Child 192618, MediaDecoderStateMachine #1] WARNING: Decoder=7f1a139e1a00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /build/firefox-ZWDswS/firefox-100.0+build2/dom/media/MediaDecoderStateMachine.cpp:3577
+JavaScript warning: https://yastatic.net/awaps-ad-sdk-js-bundles/1.0-581732/bundles-es2017/inpage.bundle.js, line 1: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: 2152398850: Request failed
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+[Child 192618, MediaDecoderStateMachine #1] WARNING: Decoder=7f1a13def000 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /build/firefox-ZWDswS/firefox-100.0+build2/dom/media/MediaDecoderStateMachine.cpp:369
+[Child 192618, MediaDecoderStateMachine #1] WARNING: Decoder=7f1a13def000 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /build/firefox-ZWDswS/firefox-100.0+build2/dom/media/MediaDecoderStateMachine.cpp:3577
+JavaScript warning: https://yastatic.net/awaps-ad-sdk-js-bundles/1.0-581732/bundles-es2017/inpage.bundle.js, line 1: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: 
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+[Child 192618, MediaDecoderStateMachine #1] WARNING: Decoder=7f1a0d0c4700 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /build/firefox-ZWDswS/firefox-100.0+build2/dom/media/MediaDecoderStateMachine.cpp:369
+[Child 192618, MediaDecoderStateMachine #1] WARNING: Decoder=7f1a0d0c4700 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /build/firefox-ZWDswS/firefox-100.0+build2/dom/media/MediaDecoderStateMachine.cpp:3577
+JavaScript warning: https://yastatic.net/awaps-ad-sdk-js-bundles/1.0-581732/bundles-es2017/inpage.bundle.js, line 1: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: 2152398850: Request failed
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+JavaScript error: resource://gre/actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+1652995756419	Marionette	INFO	Stopped listening on port 40127
+1652996707603	geckodriver	INFO	Listening on 127.0.0.1:39203
+1652996707615	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "40047" "-no-remote" "-profile" "/tmp/rust_mozprofilednaKBX"
+*** You are running in headless mode.
+1652996708394	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilednaKBX/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:40047/devtools/browser/cfd5fd98-3999-49ec-9ead-07da034ebbd8
+1652996710535	Marionette	INFO	Listening on port 46489
+1652996710658	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 17: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+[Child 193892, MediaDecoderStateMachine #1] WARNING: Decoder=7f01e0297d00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /build/firefox-ZWDswS/firefox-100.0+build2/dom/media/MediaDecoderStateMachine.cpp:369
+[Child 193892, MediaDecoderStateMachine #1] WARNING: Decoder=7f01e0297d00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /build/firefox-ZWDswS/firefox-100.0+build2/dom/media/MediaDecoderStateMachine.cpp:3577
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+[Child 193892, MediaDecoderStateMachine #1] WARNING: Decoder=7f01e0b64700 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /build/firefox-ZWDswS/firefox-100.0+build2/dom/media/MediaDecoderStateMachine.cpp:369
+[Child 193892, MediaDecoderStateMachine #1] WARNING: Decoder=7f01e0b64700 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /build/firefox-ZWDswS/firefox-100.0+build2/dom/media/MediaDecoderStateMachine.cpp:3577
+JavaScript warning: https://yastatic.net/awaps-ad-sdk-js-bundles/1.0-581164/bundles-es2017/inpage.bundle.js, line 1: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: 2152398850: Request failed
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+[Child 193892, MediaDecoderStateMachine #1] WARNING: Decoder=7f01dd39d200 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /build/firefox-ZWDswS/firefox-100.0+build2/dom/media/MediaDecoderStateMachine.cpp:369
+[Child 193892, MediaDecoderStateMachine #1] WARNING: Decoder=7f01dd39d200 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /build/firefox-ZWDswS/firefox-100.0+build2/dom/media/MediaDecoderStateMachine.cpp:3577
+[Child 193892, MediaDecoderStateMachine #1] WARNING: Decoder=7f01db9b7700 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /build/firefox-ZWDswS/firefox-100.0+build2/dom/media/MediaDecoderStateMachine.cpp:369
+[Child 193892, MediaDecoderStateMachine #1] WARNING: Decoder=7f01db9b7700 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /build/firefox-ZWDswS/firefox-100.0+build2/dom/media/MediaDecoderStateMachine.cpp:3577
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+[Child 193892, MediaDecoderStateMachine #1] WARNING: Decoder=7f01db674100 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /build/firefox-ZWDswS/firefox-100.0+build2/dom/media/MediaDecoderStateMachine.cpp:369
+[Child 193892, MediaDecoderStateMachine #1] WARNING: Decoder=7f01db674100 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /build/firefox-ZWDswS/firefox-100.0+build2/dom/media/MediaDecoderStateMachine.cpp:3577
+JavaScript warning: https://yastatic.net/awaps-ad-sdk-js-bundles/1.0-581164/bundles-es2017/inpage.bundle.js, line 1: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: 2152398850: Request failed
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+JavaScript error: resource://gre/actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+[Child 193892, MediaDecoderStateMachine #1] WARNING: Decoder=7f01dda0b300 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /build/firefox-ZWDswS/firefox-100.0+build2/dom/media/MediaDecoderStateMachine.cpp:369
+[Child 193892, MediaDecoderStateMachine #1] WARNING: Decoder=7f01dda0b300 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /build/firefox-ZWDswS/firefox-100.0+build2/dom/media/MediaDecoderStateMachine.cpp:3577
+JavaScript warning: https://yastatic.net/awaps-ad-sdk-js-bundles/1.0-581164/bundles-es2017/inpage.bundle.js, line 1: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: 2152398850: Request failed
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+JavaScript error: https://yastatic.net/safeframe-bundles/0.83/1-1-0/protected/render.html, line 31: SyntaxError: expected expression, got '<'
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+JavaScript error: resource://gre/actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+JavaScript error: https://yastatic.net/safeframe-bundles/0.83/1-1-0/protected/render.html, line 31: SyntaxError: expected expression, got '<'
+[Child 193892, MediaDecoderStateMachine #1] WARNING: Decoder=7f01dfec8100 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /build/firefox-ZWDswS/firefox-100.0+build2/dom/media/MediaDecoderStateMachine.cpp:369
+[Child 193892, MediaDecoderStateMachine #1] WARNING: Decoder=7f01dfec8100 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /build/firefox-ZWDswS/firefox-100.0+build2/dom/media/MediaDecoderStateMachine.cpp:3577
+JavaScript error: https://yastatic.net/safeframe-bundles/0.83/1-1-0/protected/render.html, line 31: SyntaxError: expected expression, got '<'
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 13: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Child 193892, MediaDecoderStateMachine #1] WARNING: Decoder=7f01e0cce400 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /build/firefox-ZWDswS/firefox-100.0+build2/dom/media/MediaDecoderStateMachine.cpp:369
+[Child 193892, MediaDecoderStateMachine #1] WARNING: Decoder=7f01e0cce400 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /build/firefox-ZWDswS/firefox-100.0+build2/dom/media/MediaDecoderStateMachine.cpp:3577
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+JavaScript error: https://yastatic.net/safeframe-bundles/0.83/1-1-0/protected/render.html, line 31: SyntaxError: expected expression, got '<'
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+1652997191106	Marionette	INFO	Stopped listening on port 46489
+1652998118554	geckodriver	INFO	Listening on 127.0.0.1:36083
+1652998118564	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "41105" "-no-remote" "-profile" "/tmp/rust_mozprofileUyBYlp"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1652998120001	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileUyBYlp/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:41105/devtools/browser/c7c38784-1f43-4e18-be3d-708653a80102
+1652998122331	Marionette	INFO	Listening on port 33041
+1652998122407	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 17: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+[Child 195617, MediaDecoderStateMachine #1] WARNING: Decoder=7f9ce2d93a00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /build/firefox-ZWDswS/firefox-100.0+build2/dom/media/MediaDecoderStateMachine.cpp:369
+[Child 195617, MediaDecoderStateMachine #1] WARNING: Decoder=7f9ce2d93a00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /build/firefox-ZWDswS/firefox-100.0+build2/dom/media/MediaDecoderStateMachine.cpp:3577
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 13: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Child 195617, MediaDecoderStateMachine #1] WARNING: Decoder=7f9cd5474000 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /build/firefox-ZWDswS/firefox-100.0+build2/dom/media/MediaDecoderStateMachine.cpp:369
+[Child 195617, MediaDecoderStateMachine #1] WARNING: Decoder=7f9cd5474000 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /build/firefox-ZWDswS/firefox-100.0+build2/dom/media/MediaDecoderStateMachine.cpp:3577
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+[Child 195617, MediaDecoderStateMachine #1] WARNING: Decoder=7f9ce2f7aa00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /build/firefox-ZWDswS/firefox-100.0+build2/dom/media/MediaDecoderStateMachine.cpp:369
+[Child 195617, MediaDecoderStateMachine #1] WARNING: Decoder=7f9ce2f7aa00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /build/firefox-ZWDswS/firefox-100.0+build2/dom/media/MediaDecoderStateMachine.cpp:3577
+[Child 195617, MediaDecoderStateMachine #1] WARNING: Decoder=7f9ce3cd3f00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /build/firefox-ZWDswS/firefox-100.0+build2/dom/media/MediaDecoderStateMachine.cpp:369
+[Child 195617, MediaDecoderStateMachine #1] WARNING: Decoder=7f9ce3cd3f00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /build/firefox-ZWDswS/firefox-100.0+build2/dom/media/MediaDecoderStateMachine.cpp:3577
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+[Child 195617, MediaDecoderStateMachine #1] WARNING: Decoder=7f9cd5ad0f00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /build/firefox-ZWDswS/firefox-100.0+build2/dom/media/MediaDecoderStateMachine.cpp:369
+[Child 195617, MediaDecoderStateMachine #1] WARNING: Decoder=7f9cd5ad0f00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /build/firefox-ZWDswS/firefox-100.0+build2/dom/media/MediaDecoderStateMachine.cpp:3577
+JavaScript warning: https://yastatic.net/awaps-ad-sdk-js-bundles/1.0-582374/bundles-es2017/inpage.bundle.js, line 1: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: 2152398850: Request failed
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+1652998264830	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+[Child 195617, MediaDecoderStateMachine #1] WARNING: Decoder=7f9ce2d92800 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /build/firefox-ZWDswS/firefox-100.0+build2/dom/media/MediaDecoderStateMachine.cpp:369
+[Child 195617, MediaDecoderStateMachine #1] WARNING: Decoder=7f9ce2d92800 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /build/firefox-ZWDswS/firefox-100.0+build2/dom/media/MediaDecoderStateMachine.cpp:3577
+JavaScript warning: https://yastatic.net/awaps-ad-sdk-js-bundles/1.0-582374/bundles-es2017/inpage.bundle.js, line 1: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: 2152398850: Request failed
+[Child 195617, MediaDecoderStateMachine #1] WARNING: Decoder=7f9ce2e67700 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /build/firefox-ZWDswS/firefox-100.0+build2/dom/media/MediaDecoderStateMachine.cpp:369
+[Child 195617, MediaDecoderStateMachine #1] WARNING: Decoder=7f9ce2e67700 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /build/firefox-ZWDswS/firefox-100.0+build2/dom/media/MediaDecoderStateMachine.cpp:3577
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+[Child 195617, MediaDecoderStateMachine #1] WARNING: Decoder=7f9cd5ed9b00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /build/firefox-ZWDswS/firefox-100.0+build2/dom/media/MediaDecoderStateMachine.cpp:369
+[Child 195617, MediaDecoderStateMachine #1] WARNING: Decoder=7f9cd5ed9b00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /build/firefox-ZWDswS/firefox-100.0+build2/dom/media/MediaDecoderStateMachine.cpp:3577
+JavaScript warning: https://yastatic.net/awaps-ad-sdk-js-bundles/1.0-582374/bundles-es2017/inpage.bundle.js, line 1: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: 
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+[Child 195617, MediaDecoderStateMachine #1] WARNING: Decoder=7f9ccdb59d00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /build/firefox-ZWDswS/firefox-100.0+build2/dom/media/MediaDecoderStateMachine.cpp:369
+[Child 195617, MediaDecoderStateMachine #1] WARNING: Decoder=7f9ccdb59d00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /build/firefox-ZWDswS/firefox-100.0+build2/dom/media/MediaDecoderStateMachine.cpp:3577
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+1652998552935	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+1652998601063	Marionette	INFO	Stopped listening on port 33041
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+

@@ -3,7 +3,7 @@ from werkzeug import exceptions
 from flask_sqlalchemy import SQLAlchemy
 import datetime, json, random
 from training import train as train_func
-from parser import main as parse
+#from parser import main as parse
 app = Flask(__name__)
 
 app.secret_key = "08d2c95c904805ba5a56e2c01fa58e26e50dc3654a8a704601459cfa916cab5"
@@ -39,21 +39,19 @@ class Article(db.Model):
         return f"{self.title}"
 
 def commit_articles_to_db(articles_file_path):
-    with open(articles_file_path, 'r') as f:
-        file = f.readlines()
-        for line in file:
-            try:
-                arr = json.loads(line)
-                for i in arr:
-                    if bool(Article.query.filter_by(title=i['title']).first()):
-                        continue
-                    else:
-                        article = Article(title=i['title'],link=i['link']
+        
+    with open(articles_file_path,'r') as f:    
+        arr = json.load(f)["articles"]
+        for i in arr:
+            if bool(Article.query.filter_by(title=i['title']).first()):
+                continue
+            else:
+                article = Article(title=i['title'],link=i['link']
                             ,image=i['image'],date=i['date']
                             ,insider=i['insider'])
-                        db.session.add(article)
-            except:
-                continue
+                db.session.add(article)
+    
+                
         db.session.commit()
 
 
@@ -130,7 +128,8 @@ def login():
 @app.route("/news")
 def news():
     if not logged():
-        return render_template("please_login.html")
+        #return render_template("please_login.html")
+        return render_template("news.html",news_list=Article.query.all(), logged=logged())
     else:
         neural = train_func(session['user'])
         if neural == 0:
@@ -212,6 +211,6 @@ def logout():
     
     
 if __name__ == "__main__":
-    commit_articles_to_db("articles.txt")
+    commit_articles_to_db("articles.json")
     #parse('articles.txt')
     app.run()
