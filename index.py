@@ -129,19 +129,19 @@ def login():
 def news():
     if not logged():
         #return render_template("please_login.html")
-        return render_template("news.html",news_list=Article.query.all(), logged=logged())
+        return render_template("news.html",news_list=list(set(random.choices(Article.query.all(),k=200))), logged=logged())
     else:
         neural = train_func(session['user'])
         if neural == 0:
             return render_template("news.html",
-                news_list=Article.query.all(),
+                news_list=list(set(random.choices(Article.query.all(),k=200))),
                 logged=logged())
         #news = random.choices(Article.query.all(),k=150)
-        news = Article.query.all()
+        news = list(set(random.choices(Article.query.all(),k=200)))
         to_show = []
         for i in news:
             print(i.title)
-            if (neural[0].predict_proba(neural[1].transform([str(i.title)])))[0][0] >= 0.7:
+            if (neural[0].predict_proba(neural[1].transform([str(i.title)])))[0][0] >= 0.8:
                 to_show.append(i)
         return render_template("news.html",news_list=to_show, logged=logged())
  
