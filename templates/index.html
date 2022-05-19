@@ -4,15 +4,17 @@
 {% for mesg in get_flashed_messages() %}
 <h1>{{ mesg }}</h1>
 {% endfor %}
-
-
-    <h1>Hi,man!</h1>
-<h1>Created users:</h1>
-<ul>
-    {% for user in users %}
-    <li>{{user}}</li>
-    {% endfor %}
-</ul>
+<section class="py-5 text-center container">
+    <div class="row py-lg-5">
+      <div class="col-lg-6 col-md-8 mx-auto">
+        <h1 class="fw-light">Hello!</h1>
+        <p class="lead text-muted">This is news aggregator, that based on machine learning algorithms. Just sign in and log in, then go to TRAIN directory to choose articles you prefer. Machine will train by your preferations and continue to them will show you right articles in NEWS directory.</p>
+        <p>
+        </p>
+      </div>
+    </div>
+  </section> 
+    
 
 
 {% endblock %}

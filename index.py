@@ -2,6 +2,8 @@ from flask import Flask, render_template, request, redirect, flash, session, url
 from werkzeug import exceptions
 from flask_sqlalchemy import SQLAlchemy
 import datetime, json, random
+from training import train as train_func
+from parser import main as parse
 app = Flask(__name__)
 
 app.secret_key = "08d2c95c904805ba5a56e2c01fa58e26e50dc3654a8a704601459cfa916cab5"
@@ -40,13 +42,18 @@ def commit_articles_to_db(articles_file_path):
     with open(articles_file_path, 'r') as f:
         file = f.readlines()
         for line in file:
-            arr = json.loads(line)
-            for i in arr:
-                if bool(Article.query.filter_by(title=i['title']).first()):
-                    continue
-                else:
-                    article = Article(title=i['title'],link=i['link'],image=i['image'],date=i['date'],insider=i['insider'])
-                    db.session.add(article)
+            try:
+                arr = json.loads(line)
+                for i in arr:
+                    if bool(Article.query.filter_by(title=i['title']).first()):
+                        continue
+                    else:
+                        article = Article(title=i['title'],link=i['link']
+                            ,image=i['image'],date=i['date']
+                            ,insider=i['insider'])
+                        db.session.add(article)
+            except:
+                continue
         db.session.commit()
 
 
@@ -60,7 +67,6 @@ def clear_db():
 
 @app.route('/')
 def index():
-    flash('Main page')
     return render_template("index.html", users=User.query.all(),logged=logged())
 
 
@@ -76,7 +82,8 @@ def sign_in():
                     flash("You should fill all fields")
                     return redirect(url_for("sign_in"))
                 else:
-                    user = User(name=request.form['name'], password=request.form['password'])
+                    user = User(name=request.form['name']
+                            , password=request.form['password'])
                     db.session.add(user)
                     db.session.commit()
                     flash("Successful signed in!")
@@ -95,7 +102,7 @@ def login():
         try:
             if bool(User.query.filter_by(name=request.form['name']).first()):
 
-                if User.query.filter_by(name=request.form['name']).first().password == request.form['password']:
+                if User.query.filter_by(name=request.form['name']).first().password== request.form['password']:
                     session["user"] = request.form['name']
                     session["picked"] = ''
                     session['train']={}
@@ -125,9 +132,20 @@ def news():
     if not logged():
         return render_template("please_login.html")
     else:
-        return render_template("news.html",
+        neural = train_func(session['user'])
+        if neural == 0:
+            return render_template("news.html",
                 news_list=Article.query.all(),
                 logged=logged())
+        #news = random.choices(Article.query.all(),k=150)
+        news = Article.query.all()
+        to_show = []
+        for i in news:
+            print(i.title)
+            if (neural[0].predict_proba(neural[1].transform([str(i.title)])))[0][0] >= 0.7:
+                to_show.append(i)
+        return render_template("news.html",news_list=to_show, logged=logged())
+ 
 
 @app.route("/train", methods=["POST","GET"])
 def train():
@@ -160,13 +178,11 @@ def train():
                     json_dict[session['user']] = session['train_db']
             with open("users.json",'w') as users_json:
                 json.dump(json_dict,users_json,indent=6)
-            flash(f"successfully trained!{session['train_db']}")
             return redirect(url_for('index'))
         except exceptions.BadRequestKeyError:
             session['train_db'] = {} 
             if request.method == "POST":    
                 session['picked'] += (request.get_data(as_text=True)) + "|||"
-                flash(session['picked'])
                 return render_template("train.html"
                         ,logged=logged()
                         ,train_list=session['train_list'])
@@ -193,7 +209,9 @@ def logout():
     del session["user"]
     return redirect(url_for("index"))
 
-
+    
+    
 if __name__ == "__main__":
     commit_articles_to_db("articles.txt")
+    #parse('articles.txt')
     app.run(debug=True)

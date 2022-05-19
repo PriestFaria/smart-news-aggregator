@@ -19,14 +19,12 @@
                     <li class="nav-item"><a href="{{url_for('index')}}" class="nav-link active" aria-current="page">Home</a></li>
                     <li class="nav-item"><a href="{{url_for('news')}}" class="nav-link">News</a></li>
                     <li class="nav-item"><a href="{{url_for('logout')}}" class="nav-link">Logout</a></li>
-                    <li class="nav-item"><a href="{{url_for('clear_db')}}" class="nav-link">Clear db</a></li>
                     <li class="nav-item"><a href="{{url_for('train')}}" class="nav-link">Train</a></li>     
                 {% else %}
                     <li class="nav-item"><a href="{{url_for('index')}}" class="nav-link active" aria-current="page">Home</a></li>
                     <li class="nav-item"><a href="{{url_for('login')}}" class="nav-link">Login</a></li>
                     <li class="nav-item"><a href="{{url_for('sign_in')}}" class="nav-link">Sign in</a></li>
                     <li class="nav-item"><a href="{{url_for('news')}}" class="nav-link">News</a></li>
-                    <li class="nav-item"><a href="{{url_for('clear_db')}}" class="nav-link">Clear db</a></li>
                 {% endif %}
             </ul>
     </header>
@@ -40,18 +38,14 @@
     {#footer#}
     <div class="container">
       <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-        <p class="col-md-4 mb-0 text-muted">© 2021 Company, Inc</p>
+        <p class="col-md-4 mb-0 text-muted">© 2022 Timur Valeev, 10A</p>
 
         <div href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
           <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
         </div>
 
         <ul class="nav col-md-4 justify-content-end">
-          <li class="nav-item"><div href="#" class="nav-link px-2 text-muted">Home</div></li>
-          <li class="nav-item"><div href="#" class="nav-link px-2 text-muted">Features</div></li>
-          <li class="nav-item"><div href="#" class="nav-link px-2 text-muted">Pricing</div></li>
-          <li class="nav-item"><div href="#" class="nav-link px-2 text-muted">FAQs</div></li>
-          <li class="nav-item"><div href="#" class="nav-link px-2 text-muted">About</div></li>
+          <li class="nav-item"><div class="nav-link px-2 text-muted">МАОУ "Лицей №6"</div></li>
 
         </ul>
       </footer>

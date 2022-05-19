@@ -1719,3 +1719,27 @@ console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message f
 console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
 console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
 1651522698013	Marionette	INFO	Stopped listening on port 44757
+1652988167089	geckodriver	INFO	Listening on 127.0.0.1:44333
+1652988167595	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "34325" "-no-remote" "-profile" "/tmp/rust_mozprofilegHd2Fg"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1652988169328	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilegHd2Fg/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:34325/devtools/browser/765254b8-20e9-4e51-8a7b-e74cece97964
+1652988171962	Marionette	INFO	Listening on port 40227
+1652988172038	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 17: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
