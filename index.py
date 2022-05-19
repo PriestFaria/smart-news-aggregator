@@ -141,7 +141,7 @@ def news():
         to_show = []
         for i in news:
             print(i.title)
-            if (neural[0].predict_proba(neural[1].transform([str(i.title)])))[0][0] >= 0.9:
+            if (neural[0].predict_proba(neural[1].transform([str(i.title)])))[0][0] >= 0.99:
                 to_show.append(i)
         return render_template("news.html",news_list=to_show, logged=logged())
  
