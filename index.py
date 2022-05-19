@@ -214,4 +214,4 @@ def logout():
 if __name__ == "__main__":
     commit_articles_to_db("articles.txt")
     #parse('articles.txt')
-    app.run(debug=True)
+    app.run()
